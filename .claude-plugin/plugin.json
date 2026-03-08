@@ -1,0 +1,48 @@
+{
+  "name": "developer-guard",
+  "version": "1.0.0",
+  "description": "Pre-commit scanning and pre-launch audits — catches secrets, personal data, hardcoded paths, and .env files before they reach git history. Includes four-step launch readiness audit for publishing.",
+  "author": {
+    "name": "Ahmed Hamadto",
+    "url": "https://github.com/AhmedHamadto"
+  },
+  "homepage": "https://github.com/AhmedHamadto/developer-guard",
+  "repository": "https://github.com/AhmedHamadto/developer-guard",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "pre-commit",
+    "secrets-scanning",
+    "security",
+    "repo-scan",
+    "legal-audit",
+    "launch-readiness",
+    "developer-tools"
+  ],
+  "skills": {
+    "repo-scan": {
+      "path": "skills/repo-scan/SKILL.md",
+      "description": "Scan for secrets, personal data, hardcoded paths, and attribution gaps before publishing"
+    },
+    "legal-audit": {
+      "path": "skills/legal-audit/SKILL.md",
+      "description": "Audit license compliance, IP risks, attribution, and claims accuracy before going public"
+    },
+    "first-run-audit": {
+      "path": "skills/first-run-audit/SKILL.md",
+      "description": "Simulate first-time user experience — verify install paths, discoverability, and error handling"
+    },
+    "launch-ready": {
+      "path": "skills/launch-ready/SKILL.md",
+      "description": "Audit and improve a repository for public launch — README, metadata, contributing guide, and polish"
+    },
+    "pre-launch-audit": {
+      "path": "skills/pre-launch-audit/SKILL.md",
+      "description": "Orchestrate repo-scan, legal-audit, first-run-audit, and launch-ready into a single GO/NO-GO report"
+    },
+    "pre-commit-review": {
+      "path": "skills/pre-commit-review/SKILL.md",
+      "description": "Contextual review of staged git changes — Layer 2 of the pre-commit gate"
+    }
+  }
+}

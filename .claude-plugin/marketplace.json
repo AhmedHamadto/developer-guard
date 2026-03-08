@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "publisher": {
+    "name": "Ahmed Hamadto",
+    "url": "https://github.com/AhmedHamadto",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "developer-guard",
+      "source": "https://github.com/AhmedHamadto/developer-guard",
+      "description": "Pre-commit scanning and pre-launch audits — catches secrets, personal data, hardcoded paths, and .env files before they reach git history.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Ahmed Hamadto"
+      },
+      "license": "MIT"
+    }
+  ]
+}
